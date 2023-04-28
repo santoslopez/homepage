@@ -1,5 +1,5 @@
 function Hello() {
-    return <div>Hello, world!</div>;
+    return <div className="font-bold">Hello, world!</div>;
 }
 
 export default Hello;
