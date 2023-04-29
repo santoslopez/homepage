@@ -8,7 +8,7 @@ function Heading(props: HeadingProps) {
   const { children, level } = props;
   const sizeClass = level === 2 ? "text-2xl" : "text-3xl";
   return (
-    <div className={`${sizeClass} font-bold pt-2 pb-4`}>
+    <div className={`${sizeClass} font-bold pt-5 pb-4`}>
       {children}
     </div>
   );
