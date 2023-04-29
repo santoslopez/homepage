@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -t -d out"
   },
   "devDependencies": {
     "@types/node": "^18.16.2",

@@ -14,11 +14,11 @@ function Layout({ children }) {
         <title>Brian Yu</title>
       </Head>
       <Image
-        className="w-40 mx-auto"
+        className="w-40 mx-auto pt-2"
         src={profileImage}
         alt="Brian Yu"
       />
-      <h1 className="text-center text-4xl font-semibold py-2">
+      <h1 className="text-center text-4xl font-semibold py-3">
         Brian Yu
       </h1>
       <NavigationBar />
